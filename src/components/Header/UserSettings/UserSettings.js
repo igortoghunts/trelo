@@ -2,7 +2,7 @@ import React from 'react';
 
 const UserSettings = () =>  {
     return (      
-        <div class="user-settings">
+        <div className="user-settings">
             <button className="user-settings-btn btn" aria-label="Create">
                 <i className="fas fa-plus" aria-hidden="true"></i>
             </button>

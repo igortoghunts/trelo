@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Label = () =>  {
+const Label = props =>  {
     return (       
-        <li>Complete mock-up for client website</li>
+        <li>{props.card.label}</li>
     );
 }
 
